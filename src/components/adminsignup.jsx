@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 function Adminsignup() {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        <div id="my_modal_2" className="modal">
-          <div className="modal-box mt-20 relative w-full max-w-md">
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 flex-col">
+        <div className="contents-center border shadow mt-5 bg-gray-400 w-[16%] rounded pl-16 font-bold pt-2 pb-2">
+          ADMIN SIGNUP
+        </div>
+        <div id="adminsignup" className="modal">
+          <div className="modal-box mt-5 relative w-full max-w-md">
             <form
               method="dialog"
               className="w-full rounded-lg p-5 border bg-slate-900"
